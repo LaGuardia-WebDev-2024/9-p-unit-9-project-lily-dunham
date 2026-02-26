@@ -12,15 +12,52 @@ draw = function(){
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
   
+  //responses 1-8
   if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text("ASK", 176, 200);
+    text("AGAIN", 159, 229); 
   }
   
+ if (answer == 2) {
+    text("YES", 176, 200);
+    text("It is certain", 159, 229);
+ }
+
+ if (answer == 3) {
+    text("NO", 176, 200);
+    text("Definitely not.", 159, 229);
+ }
+
+  if (answer == 4) {
+    text("perhaps", 176, 200);
+    text("with time", 159, 229);
+  }
+
+   if (answer == 5) {
+    text("it's complicated", 176, 200);
+    text("yes and no", 159, 229);
+   }
+
+    if (answer == 6) {
+    text("kind", 176, 200);
+    text("of", 159, 229);
+    }
+
+ if (answer == 7) {
+    text("very much", 176, 200);
+    text("so", 159, 229);
+ }
+
+  if (answer == 8) {
+    text("a", 176, 200);
+    text("little bit", 159, 229);
+  }
+
+
 };
 
 mouseClicked = function(){
-  answer = round(random(1, 5));
+  answer = round(random(1, 8));
 };
 
 
