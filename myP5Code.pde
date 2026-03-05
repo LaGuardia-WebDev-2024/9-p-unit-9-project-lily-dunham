@@ -23,12 +23,12 @@ draw = function(){
   }
   
  if (answer == 2) {
-    text("YES", 176, 200);
+    text("YES ✅", 176, 200);
     text("It is certain", 159, 229);
  }
 
  if (answer == 3) {
-    text("NO", 176, 200);
+    text("NO ❌", 176, 200);
     text("Definitely not.", 159, 229);
  }
 
